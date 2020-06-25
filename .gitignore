@@ -1,0 +1,121 @@
+# Files that should be ignored by git
+
+*.app.dSYM.zip
+*.ipa
+
+# OS-X Desktop-Services Store File - just an System-File that is not relevant to the Project
+.DS_Store
+
+# Personal User-Data from XCode, causes Conflicts with Personal Project-Settings if commited
+.xcodeproj/ !*.xcodeproj/project.pbxproj
+
+# Build-Directory
+/build
+
+# Cocoapods
+
+Pods/
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots/*.jpg
+fastlane/screenshots/*.png
+fastlane/screenshots/*.html
+
+# scan temporary files
+fastlane/test_output
+
+# Docset, that should be generated localy, makes no sense to add to the Repo
+DoxygenDocs.docset
+
+# xcode noise
+build/*
+*.pbxuser
+*.mode1v3
+*.xcuserstate
+*.mode2v3
+*.perspectivev3
+DerivedData/
+.idea/
+*.swp
+*.lock
+*.moved-aside
+
+# old skool
+.svn
+
+# osx noise
+.DS_Store
+progile
+
+# Ignore Images
+.png
+*.psd
+
+# Temp Files:
+*~
+
+# Unwanted Folders
+/CrashLogs*
+
+# Generated Files in tools, to big to track
+tools/replace_tiles/arma.mbtiles
+tools/replace_tiles/map_lvl_1.png
+tools/replace_tiles/map_lvl_2.png
+tools/replace_tiles/map_lvl_3.png
+tools/replace_tiles/map_lvl_4.png
+tools/replace_tiles/map_lvl_5.png
+tools/replace_tiles/map_lvl_6.png
+tools/replace_tiles/new_map_small.png
+tools/replace_tiles/tile_tmp.jpg
+tools/replace_tiles/tile_write_temp.jpg
+tools/replace_tiles/map_lvl_1_replacement.png
+tools/replace_tiles/map_lvl_2_replacement.png
+tools/replace_tiles/map_lvl_3_replacement.png
+tools/replace_tiles/map_lvl_4_replacement.png
+tools/replace_tiles/map_lvl_5_replacement.png
+tools/replace_tiles/map_lvl_6_replacement.png
+
+
+###Python###
+ 
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib64
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+#Translations
+*.mo
+
+#Mr Developer
+.mr.developer.cfg
+
+
+
